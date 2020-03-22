@@ -1,0 +1,1 @@
+To open a command prompt window in any folder, simply hold down the Shift key and right-click on the desktop. In the context menu, you will see the option to Open command window here. Clicking on it will open a CMD window.

@@ -1,0 +1,423 @@
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI
+$ npm init
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+
+package name: (kauri) Drizzle front end exercise
+Sorry, name can only contain URL-friendly characters and name can no longer contain capital letters.
+
+package name: (kauri) drizzle_front_end_exercise
+
+version: (1.0.0) 0.1.0
+
+description: An exercise to test drizzle as front end for a given Dapp
+
+entry point: (index.js)
+
+test command:
+
+git repository: drizzle
+
+keywords: pro tramp
+
+author: jjmr007
+
+license: (ISC) AGPL-3.0-only
+
+About to write to C:\Users\MultiEBD\Desktop\CODER\KAURI\package.json:
+
+{
+  "name": "drizzle_front_end_exercise",
+  "version": "0.1.0",
+  "description": "An exercise to test drizzle as front end for a Dapp\u001b[D\u001b[D\u001b[D\u001b[Dgiven Dapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "drizzle"
+  },
+  "keywords": [
+    "pro",
+    "tramp"
+  ],
+  "author": "jjmr007",
+  "license": "AGPL-3.0-only"
+}
+
+
+Is this OK? (yes)
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI
+$ git remote add origin https://github.com/jjmr007/drizzle_exercise
+fatal: not a git repository (or any of the parent directories): .git
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI
+$ git init
+Initialized empty Git repository in C:/Users/MultiEBD/Desktop/CODER/KAURI/.git/
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+					(Aqui volvi a intentar 
+					$ git remote add origin https://github.com/jjmr007/drizzle_exercise
+					e intente por primera vez:
+					$ git pull origin master --allow-unrelated-histories
+					y la vaina se guindo y borro los comandos)
+					
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git commit -m "initial commit"
+Merge made by the 'recursive' strategy.
+ LICENSE   | 674 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md |   2 +
+ 2 files changed, 676 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$  git remote add origin https://github.com/jjmr007/drizzle_exercise
+fatal: remote origin already exists.
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$  git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI
+$ git add .
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git commit -m "trying pull from github"
+On branch master
+nothing to commit, working tree clean
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git pull origin master --allow-unrelated-histories
+From https://github.com/jjmr007/drizzle_exercise
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git add --all
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git push -u origin master
+
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 784 bytes | 784.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/jjmr007/drizzle_exercise
+   a333e93..1bca6dc  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ truffle unbox react
+This directory is non-empty...
+? Proceed anyway? (Y/n) y
+? Proceed anyway? Yes
+- Preparing to download box
+v Preparing to download box
+- Downloading
+v Downloading
+LICENSE already exists in this directory...
+? Overwrite LICENSE? (y/N) n
+? Overwrite LICENSE? No
+gyp ERR! build error
+gyp ERR! stack Error: `C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe` failed with exit code: 1
+gyp ERR! stack     at ChildProcess.onExit (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:194:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:321:20)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+gyp ERR! System Windows_NT 6.1.7601
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+gyp ERR! cwd C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\sha3
+gyp ERR! node -v v13.6.0
+gyp ERR! node-gyp -v v5.0.5
+gyp ERR! not ok
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sha3@1.2.3 install: `node-gyp rebuild`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the sha3@1.2.3 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\MultiEBD\AppData\Roaming\npm-cache\_logs\2020-03-22T19_49_20_957Z-debug.log
+- cleaning up temporary files
+v cleaning up temporary files
+- Setting up box
+× Setting up box
+× Setting up box
+Error: Command failed: cd client && npm ci
+gyp ERR! build error
+gyp ERR! stack Error: `C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe` failed with exit code: 1
+gyp ERR! stack     at ChildProcess.onExit (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:194:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:321:20)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+gyp ERR! System Windows_NT 6.1.7601
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+gyp ERR! cwd C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\sha3
+gyp ERR! node -v v13.6.0
+gyp ERR! node-gyp -v v5.0.5
+gyp ERR! not ok
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sha3@1.2.3 install: `node-gyp rebuild`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the sha3@1.2.3 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\MultiEBD\AppData\Roaming\npm-cache\_logs\2020-03-22T19_49_20_957Z-debug.log
+
+    at checkExecSyncError (child_process.js:611:11)
+    at Object.execSync (child_process.js:647:15)
+    at Object.installBoxDependencies (C:\Users\MultiEBD\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\box\dist\lib\utils\unbox.js:107:1)
+    at Object.setUpBox (C:\Users\MultiEBD\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\box\dist\lib\utils\index.js:68:1)
+    at C:\Users\MultiEBD\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\box\dist\box.js:61:1
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\MultiEBD\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\box\dist\box.js:5:42)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Truffle v5.1.8 (core: 5.1.8)
+Node v13.6.0
+
+				( por ningun lado me salio "Unbox successful" )
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\SimpleStorage.sol
+> Artifacts written to C:\Users\MultiEBD\Desktop\CODER\KAURI\client\src\contracts
+> Compiled successfully using:
+   - solc: 0.5.12+commit.7709ece9.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1584907794464
+> Block gas limit: 0x6691b7
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x73f0f9575b8fbd8292250a489590d33b0c6ae871f1dbf3820ea7cb5fc3c458ca
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x2669B7AD070A05889cba2D9a17E5ab17113C5985
+   > block number:        1
+   > block timestamp:     1584907874
+   > account:             0xEE213D9bC3a7b8A9CD8b5715E7A1bD6aE3C949ec
+   > balance:             99.9967165
+   > gas used:            164175
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0032835 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0032835 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SimpleStorage'
+   -------------------------
+   > transaction hash:    0x9b35a8f4fbc037ea4d3a7971ffc9ee2355cd2fcd7f033f9fbedd909fcedd1c1a
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x7122fF7b6eFD4E58f4008fed624AA4652E6669F8
+   > block number:        3
+   > block timestamp:     1584907874
+   > account:             0xEE213D9bC3a7b8A9CD8b5715E7A1bD6aE3C949ec
+   > balance:             99.9939459
+   > gas used:            96189
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00192378 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00192378 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.00520728 ETH
+
+
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ cd client
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI/client (master)
+$ npm run start
+
+> client@0.1.0 start C:\Users\MultiEBD\Desktop\CODER\KAURI\client
+> react-scripts start
+
+					(TAMBIEN DEBI INSTALAR A MANO REACT-SCRIPTS
+					LUEGO DE ESTA INSTALACION TODO FLUYO CON NORMALIDAD)
+
+"react-scripts" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! client@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the client@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\MultiEBD\AppData\Roaming\npm-cache\_logs\2020-03-22T20_14_21_748Z-debug.log
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI/client (master)
+$ npm info react-scripts version
+3.4.1
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI/client (master)
+$ npm install --save react-scripts
+
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+
+> websocket@github:web3-js/WebSocket-Node#905deb4812572b344f5801f8c9ce8bb02799d82e install C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild )
+Los proyectos de esta soluci¦n se van a compilar de uno en uno. Para habilitar la compilaci¦n en paralelo, agregue el modificador "/m".
+  bufferutil.cc
+  win_delay_load_hook.cc
+..\src\bufferutil.cc(34): error C2660: 'v8::FunctionTemplate::GetFunction': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(34): error C2661: 'Nan::Set': no overloaded function takes 2 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(50): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(57): error C2661: 'v8::Object::Get': no overloaded function takes 1 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(57): error C2227: left of '->ToObject' must point to class/struct/union/generic type [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(68): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(70): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(89): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(90): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(92): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(93): error C2660: 'v8::Value::Int32Value': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+..\src\bufferutil.cc(94): error C2660: 'v8::Value::Int32Value': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\bufferutil.vcxproj]
+  validation.cc
+  win_delay_load_hook.cc
+..\src\validation.cc(114): error C2660: 'v8::FunctionTemplate::GetFunction': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\validation.vcxproj]
+..\src\validation.cc(114): error C2661: 'Nan::Set': no overloaded function takes 2 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\validation.vcxproj]
+..\src\validation.cc(133): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-providers-ws\node_modules\websocket\build\validation.vcxproj]
+
+> core-js@2.6.11 postinstall C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\babel-runtime\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@3.6.4 postinstall C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> scrypt-shim@github:web3-js/scrypt-shim#be5e616323a8b5e568788bf94d03c1b8410eac54 postinstall C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\web3-eth-accounts\node_modules\scrypt-shim
+> node ./scripts/postinstall.js
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\react-scripts\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\jest-haste-map\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.12: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.12: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN tsutils@3.17.1 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.4 (node_modules\chokidar\node_modules\fsevents\node_modules\chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\chownr-07c44175' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\chownr'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ignore-walk@3.0.3 (node_modules\chokidar\node_modules\fsevents\node_modules\ignore-walk):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\ignore-walk-93e1f16d' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\ignore-walk'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules\chokidar\node_modules\fsevents\node_modules\inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\inherits-0979bd10' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\inherits'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.5 (node_modules\chokidar\node_modules\fsevents\node_modules\minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\minimist-a41c3400' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\minimist'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules\chokidar\node_modules\fsevents\node_modules\ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\ms-e8d5a845' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\ms'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nopt@4.0.3 (node_modules\chokidar\node_modules\fsevents\node_modules\nopt):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\nopt-e7c7848c' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\nopt'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules\chokidar\node_modules\fsevents\node_modules\npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\npm-normalize-package-bin' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules\chokidar\node_modules\fsevents\node_modules\process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\process-nextick-args-f73041f9' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\process-nextick-args'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules\chokidar\node_modules\fsevents\node_modules\semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\semver-df6aeb84' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\semver'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules\chokidar\node_modules\fsevents\node_modules\yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\yallist-84e57638' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\chokidar\node_modules\fsevents\node_modules\yallist'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.4 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\chownr-605f39d9' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\chownr'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ignore-walk@3.0.3 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\ignore-walk):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\ignore-walk-dd548e98' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\ignore-walk'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\inherits-f4e8f2a2' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\inherits'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.5 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\minimist-347c1b58' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\minimist'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\ms-43541ca5' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\ms'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nopt@4.0.3 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\nopt):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\nopt-fdbcf419' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\nopt'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\npm-normalize-package-bin' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\process-nextick-args-58dffcf3' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\process-nextick-args'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\semver-62677b26' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\semver'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules\jest-haste-map\node_modules\fsevents\node_modules\yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\.staging\yallist-70d66d64' -> 'C:\Users\MultiEBD\Desktop\CODER\KAURI\client\node_modules\jest-haste-map\node_modules\fsevents\node_modules\yallist'
+
++ react-scripts@3.2.0
+added 62 packages from 28 contributors, removed 17 packages, updated 227 packages, moved 5 packages and audited 933987 packages in 276.481s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+found 283 vulnerabilities (280 low, 2 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI/client (master)
+$

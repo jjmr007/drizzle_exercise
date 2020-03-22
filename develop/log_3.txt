@@ -1,0 +1,193 @@
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ npm info ganache-cli version
+6.9.1
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ ganache-cli
+bash: ganache-cli: command not found
+
+					(AQUI ME DOY CUENTA QUE TENGO QUE VOLVERLO A INSTALAR
+					¿PORQUE? NOSE)
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ npm info ganache-cli version
+6.9.1
+
+					(ME SALIO LUEGO DE VOLVER A INSTALAR)
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ ganache-cli
+Ganache CLI v6.9.1 (ganache-core: 2.10.2)
+
+Available Accounts
+==================
+(0) 0xEE213D9bC3a7b8A9CD8b5715E7A1bD6aE3C949ec (100 ETH)
+(1) 0x15B7ae3BB7F75408823E53f7fEd3a9f60Bf3E062 (100 ETH)
+(2) 0xA92Bb5F307D6515757c4688c0b34E0F4243b8103 (100 ETH)
+(3) 0x6A87C7eA597AF73EadfF53dA5F927053dDFFF185 (100 ETH)
+(4) 0xCff7C37499942c7D84fBb454727C6BCb45BEf79b (100 ETH)
+(5) 0x0A5C15EE4D69fE814F67B964Ba60755dC5Ff6B44 (100 ETH)
+(6) 0xBa96DFF8b93f7c7aeF45bCB6Ed760d79F1109399 (100 ETH)
+(7) 0x15591B2045457C392AFF79F26222a3229D1d4351 (100 ETH)
+(8) 0x977a8bA55fc1bd8a99aE15a19F9Ea3aF1fB4393C (100 ETH)
+(9) 0x66e761Cd572d2C6CD47a6d4ae206b823BAFAA2F8 (100 ETH)
+
+Private Keys
+==================
+(0) 0xb10a84e725587b02b7a60def80cc445e494e492e3d6b177dc6953077825aa10f
+(1) 0x9013c6b8fff893f711d2df4c2d13113c4da063138dd6d7dbdfa56dad4f41495e
+(2) 0x6daa46cc49d4930f8ebc6d8a631ed4b2e8bb3227416a1775b3592c201fafabe7
+(3) 0x50c23295f4fbba638d97f845ef3a26a69a09cb6a0f38c84c37d8144d10d06146
+(4) 0xad97ba742393ed227b905273de2d88b44ef0fc41bf39a093d8a9bf60aaeb5ba5
+(5) 0x0bfc18fe239ccbd9137304a78427e20217e63f14c6351cbb035cc5f406c2445a
+(6) 0x861e77d7b75de9ed08b90c37225e05de856c5ecc148ac4dd840586dd448adf73
+(7) 0xcdc087594a75aad23e897f62687be63df7fcdbd1aacb5167677918722b6a3583
+(8) 0xa84a78333b936a33dbf1054785c1724b3d7be9f696a082e7c75a33121431704b
+(9) 0x4eff840dba8ea426419f0e8f9586d140a80ca58ae626ffd5e7d08e2ea578c1ee
+
+HD Wallet
+==================
+Mnemonic:      net woman fitness link fancy coffee eternal method bread book month item
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
+eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x73f0f9575b8fbd8292250a489590d33b0c6ae871f1dbf3820ea7cb5fc3c458ca
+  Contract created: 0x2669b7ad070a05889cba2d9a17e5ab17113c5985
+  Gas usage: 164175
+  Block Number: 1
+  Block Time: Sun Mar 22 2020 16:11:14 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x9033e8bc8bc0e6547614ecf07648b4fdb28b78ea7685d51e2b48783e12117ff5
+  Gas usage: 42341
+  Block Number: 2
+  Block Time: Sun Mar 22 2020 16:11:14 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x9b35a8f4fbc037ea4d3a7971ffc9ee2355cd2fcd7f033f9fbedd909fcedd1c1a
+  Contract created: 0x7122ff7b6efd4e58f4008fed624aa4652e6669f8
+  Gas usage: 96189
+  Block Number: 3
+  Block Time: Sun Mar 22 2020 16:11:14 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0xd0f879de9c04d225bfc1298c258c85503178ee47f37bc842dc5e191e19afab4d
+  Gas usage: 27341
+  Block Number: 4
+  Block Time: Sun Mar 22 2020 16:11:14 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_accounts
+net_version
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x9e8eccb535f2cdecd2e498a822a2132c0721dc04f7bf0b98756f5c60816f76f4
+  Gas usage: 41424
+  Block Number: 5
+  Block Time: Sun Mar 22 2020 16:27:25 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_call
+eth_blockNumber
+net_version
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+net_version
+eth_gasPrice
+eth_getCode
+eth_estimateGas
+eth_getTransactionCount
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_getTransactionCount
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+net_version
+eth_estimateGas
+eth_blockNumber
+eth_sendRawTransaction
+
+  Transaction: 0xbc26da4c40bbc85114927ce819259b78916f57b9e9e5a319c2ba9256451622a5
+  Gas usage: 22224
+  Block Number: 6
+  Block Time: Sun Mar 22 2020 16:30:13 GMT-0400 (hora de Bolivia)
+
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getTransactionReceipt
+eth_call
+eth_getTransactionCount
+

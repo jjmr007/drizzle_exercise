@@ -1,0 +1,27 @@
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ cd client
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI/client (master)
+$ npm run start
+
+> client@0.1.0 start C:\Users\MultiEBD\Desktop\CODER\KAURI\client
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.0.102:3000/
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+
+						(DEBI CREAR UNA NUEVA CUENTA CERO EN METAMASK
+						PARA GANACHE Y RECARGAR... Y TODO FLUYO
+						NORMALMENTE)
+
+
