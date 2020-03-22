@@ -1,0 +1,16 @@
+{
+  "name": "drizzle_front_end_exercise",
+  "version": "0.1.0",
+  "description": "An exercise to test drizzle as front end for a given Dapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+  },
+  "keywords": [
+    "drizzle"
+  ],
+  "author": "jjmr007",
+  "license": "AGPL-3.0-only"
+}
