@@ -1,3 +1,7 @@
+					(ESTO NO HACE FALTA... LA VAINA CORRE IGUALITO 
+					CON TU GANACHE NORMAL)
+
+
 MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
 $ npm info ganache-cli version
 6.9.1

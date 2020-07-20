@@ -1,0 +1,129 @@
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitattributes
+        client/
+        contracts/
+        develop/
+        migrations/
+        test/
+        truffle-config.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git add --all
+
+warning: LF will be replaced by CRLF in .gitattributes.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/contracts/Migrations.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/contracts/SimpleStorage.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/getWeb3.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/src/serviceWorker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in client/yarn.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in contracts/Migrations.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in contracts/SimpleStorage.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in migrations/1_initial_migration.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in migrations/2_deploy_contracts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/TestSimpleStorage.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/simplestorage.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in truffle-config.js.
+The file will have its original line endings in your working directory
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git commit -m "descargada caja de truffle para react y actualizadas dependencias"
+
+[master 37f7118] descargada caja de truffle para react y actualizadas dependencias
+ 35 files changed, 30361 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 client/.gitignore
+ create mode 100644 client/README.md
+ create mode 100644 client/package-lock.json
+ create mode 100644 client/package.json
+ create mode 100644 client/public/favicon.ico
+ create mode 100644 client/public/index.html
+ create mode 100644 client/public/logo192.png
+ create mode 100644 client/public/logo512.png
+ create mode 100644 client/public/manifest.json
+ create mode 100644 client/public/robots.txt
+ create mode 100644 client/src/App.css
+ create mode 100644 client/src/App.js
+ create mode 100644 client/src/App.test.js
+ create mode 100644 client/src/contracts/Migrations.json
+ create mode 100644 client/src/contracts/SimpleStorage.json
+ create mode 100644 client/src/getWeb3.js
+ create mode 100644 client/src/index.css
+ create mode 100644 client/src/index.js
+ create mode 100644 client/src/logo.svg
+ create mode 100644 client/src/serviceWorker.js
+ create mode 100644 client/yarn.lock
+ create mode 100644 contracts/Migrations.sol
+ create mode 100644 contracts/SimpleStorage.sol
+ create mode 100644 develop/Truffle_ Adding a frontend with react box - Kauri.pdf
+ create mode 100644 develop/log_0.txt
+ create mode 100644 develop/log_1.txt
+ create mode 100644 develop/log_2.txt
+ create mode 100644 develop/log_3.txt
+ create mode 100644 develop/log_4.txt
+ create mode 100644 migrations/1_initial_migration.js
+ create mode 100644 migrations/2_deploy_contracts.js
+ create mode 100644 test/TestSimpleStorage.sol
+ create mode 100644 test/simplestorage.js
+ create mode 100644 truffle-config.js
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$ git push -u origin master
+
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (45/45), 5.83 MiB | 185.00 KiB/s, done.
+Total 45 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/jjmr007/drizzle_exercise
+   1bca6dc..37f7118  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+MultiEBD@MultiEBD-PC MINGW64 ~/Desktop/CODER/KAURI (master)
+$
